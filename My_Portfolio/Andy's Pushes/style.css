@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+a {
+    color:#C90AED;
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+.header {
+    background-color: #160142;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.header h1 {
+    background-color: #C90AED;
+    float: left;
+    padding-left: 40px;
+    font-size: 40px;
+    border-width: 3px;
+    border-style: groove;
+}
+
+
+
+
+.header ul {
+    list-style-type: none;
+}
+
+.header ul li {
+    color: #C90AED;
+    margin-left: 25px;
+    cursor: crosshair;
+    border-bottom:#C90AED;
+    border-style: groove;
+    border-bottom-width: 3px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    display: inline-block;
+
+    padding-top: 10px;
+    
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+
+}
+
+
+
+
+    
+.titlecontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .titlecontainer div {
+    position: absolute;
+    color: #160142;
+    border-width: 3px;
+    border-style: groove;
+    border-color: white;
+    border-radius: 50%;
+    font-size: 34px;
+    bottom: 15px;
+    right: 16px;
+    background-color: #C90AED;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 15px;
+  }
+
+.leftcontainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    float: left;
+    clear: both;
+    text-align: right;
+    font-size: 40px;
+    height: 100%;
+    max-height: relative;
+    padding-right: 2%;
+  }
+
+.rightcontainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    text-align: left;
+    height: 100%;
+    width: 76%;
+    padding-left: 2%;
+    border-style: groove;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 3px;
+    border-right-width: 0px;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+#rightcontainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    text-align: left;
+    overflow: auto;
+    height: 100%;
+    width: 78%;
+    padding-left: 2%;
+    border-style: groove;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 3px;
+    border-right-width: 0px;
+  }
+
+.boxxy {
+    max-width: 80%;
+}
+
+  .rightcontainer2  
+  {
+    position: relative;
+    float: left;
+    overflow: auto;
+    padding-left: 1%;
+    font-size: 30px;
+  }
+
+  .rightcontainer2 div {    
+      position: absolute;
+      right: 5%;
+      bottom: 5%;
+
+      background-color: red;
+      border-style: groove;
+      border-width: 5px;
+      font-size: 30px;
+  }
+
+.rightcontainer3  
+  {
+    float: left;
+    position: relative;
+    width: "5%"; 
+    margin: 1%;
+    overflow: auto;
+    font-size: 30px;
+
+    
+  } 
+
+.rightcontainer3 div {    
+      position: absolute;
+      right: 5%;
+      bottom: 5%;
+      font-size: 30px;
+
+      background-color: red;
+      border-style: groove;
+      border-width: 5px;
+  }
+
+.leftcontainer3  
+  {
+    float: left;
+    overflow: auto;
+    position: relative;
+    width: "5%"; 
+    overflow: auto;
+    margin: 1%;
+    font-style: 70px;
+  }
+
+.leftcontainer3 div {    
+      position: absolute;
+      right: 5%;
+      bottom: 5%;
+      font-style: 30px;
+
+      background-color: red;
+      border-style: groove;
+      border-width: 5px;
+      font-size: 30px;
+
+  }
+
+
+.rightcontainer div {
+    color: #160142;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: right;
+    font-size: 12px;
+    height: 33%;
+    max-height: relative;
+    clear: both;
+  }
+
+#contact ul li{
+    color: #C90AED;
+    cursor: crosshair;
+    border-bottom:#C90AED;
+    border-style: groove;
+    border-bottom-width: 3px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    list-style-type: none;
+    padding-top: 10px;
+    float: right;
+    margin-right: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+footer {
+    color: #C90AED;
+    background-color: #160142;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
